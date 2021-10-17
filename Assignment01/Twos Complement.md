@@ -1,4 +1,3 @@
 ﻿# Why Two's Complement
 
-Two's complement provides for a means to implement subtraction in hardware with fewer required components, which simplifies 
-hardware design and potentially reduces cost of components. 
+Two's complement provides for a means to implement subtraction in hardware with fewer required components, which simplifies hardware design and potentially reduces cost of components. Only an adder circuit is required to perform subtractions when numbers are in two's complement form. This type of circuit is much simpler to implement and dedicated subtraction circuity. Further, since there is no need for a sign bit so larger numbers may be represented. Also there is no concept of a zero (00000000b) and negative zero (10000000b).
