@@ -1,9 +1,26 @@
 ﻿# Embedded Device Example
 
-For my example of an embedded device I chose the Xbox Controller.  This device contains a micro controller with limited
-storage flash storage and various input sensors. The sensors measture the movement of thumb sticks and detect button presses.
-All of this information is transmitted wirelessly or using a wired USB connection to an XBox gaming system.
+For my example of an embedded device I chose the home Microwave oven.  This device utilizes an embedded system to control the 
+cooking of food. Typical Microwave ovens provide a simple led display and touch pad interface allow for the creation of basic
+to complex cooking cycles as well. The embedded system is responsible for turning cooking instructions in to control signals
+which control the emission of microwaves to heat food.  It also controls a motor which rotates the food for even cooking.
 
-The XBox Controller faces numerous design challenges.  First, this type of embedded system must provide responsive measurement
-in real-time. The data must be rapidly transferred to the XBox Game system or else user experience can be affected. The controller 
-also allows 
+## Design challenges
+
+Cost 
+: As most microwaves are consumer oriented, they need to be affordable. Component prices are critical.
+
+Memory
+: Memory space is limited but the system needs to provide potentially complex features.
+
+Reliability
+: The embedded system must be reliable and is expected to last many years.
+
+Testability
+: A microwave typically limited or no access for test equipment connections. 
+
+Troubleshooting
+: Limited UI presents mimimal diagnostic information and capability. 
+
+Component Availability
+: Due to current global logistical issues, compoents required for the embedded system may be in limited supply.
