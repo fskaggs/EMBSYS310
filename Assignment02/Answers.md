@@ -51,5 +51,5 @@ Question 6:
 
 Question 7:
 - A) The value of Counter is stored at memory location 0x20000000.
--- B) The Counter value is stored in RAM, static RAM bank 1 (SRAM1) according to the device technical specification.
+- B) The Counter value is stored in RAM, static RAM bank 1 (SRAM1) according to the device technical specification.
 - C) The final value of Counter is 4.
