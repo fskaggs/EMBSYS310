@@ -1,0 +1,170 @@
+[
+  {
+    "ID": "c:main.c@8@macro@RCC_BASE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "RCC_BASE",
+    "location": {
+      "column": "9",
+      "line": "1",
+      "path": "C:\\UW_Workspace\\EMBSYS310\\Assignment03\\Problem1\\main.c"
+    },
+    "name": "RCC_BASE",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@39@macro@RCC_AHB2ENR",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "RCC_AHB2ENR",
+    "location": {
+      "column": "9",
+      "line": "2",
+      "path": "C:\\UW_Workspace\\EMBSYS310\\Assignment03\\Problem1\\main.c"
+    },
+    "name": "RCC_AHB2ENR",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@98@macro@RCC_GPIOA_ENABLE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "RCC_GPIOA_ENABLE",
+    "location": {
+      "column": "9",
+      "line": "3",
+      "path": "C:\\UW_Workspace\\EMBSYS310\\Assignment03\\Problem1\\main.c"
+    },
+    "name": "RCC_GPIOA_ENABLE",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@135@macro@GPIOA_BASE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIOA_BASE",
+    "location": {
+      "column": "9",
+      "line": "4",
+      "path": "C:\\UW_Workspace\\EMBSYS310\\Assignment03\\Problem1\\main.c"
+    },
+    "name": "GPIOA_BASE",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@166@macro@GPIOA_PA5_OUTPUT",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIOA_PA5_OUTPUT",
+    "location": {
+      "column": "9",
+      "line": "5",
+      "path": "C:\\UW_Workspace\\EMBSYS310\\Assignment03\\Problem1\\main.c"
+    },
+    "name": "GPIOA_PA5_OUTPUT",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@205@macro@GPIOA_MODER",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIOA_MODER",
+    "location": {
+      "column": "9",
+      "line": "6",
+      "path": "C:\\UW_Workspace\\EMBSYS310\\Assignment03\\Problem1\\main.c"
+    },
+    "name": "GPIOA_MODER",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@266@macro@GPIOA_ODR",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIOA_ODR",
+    "location": {
+      "column": "9",
+      "line": "7",
+      "path": "C:\\UW_Workspace\\EMBSYS310\\Assignment03\\Problem1\\main.c"
+    },
+    "name": "GPIOA_ODR",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@325@macro@ODR_ENABLE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "ODR_ENABLE",
+    "location": {
+      "column": "9",
+      "line": "8",
+      "path": "C:\\UW_Workspace\\EMBSYS310\\Assignment03\\Problem1\\main.c"
+    },
+    "name": "ODR_ENABLE",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@357@macro@COUNT_DOWN",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "COUNT_DOWN",
+    "location": {
+      "column": "9",
+      "line": "9",
+      "path": "C:\\UW_Workspace\\EMBSYS310\\Assignment03\\Problem1\\main.c"
+    },
+    "name": "COUNT_DOWN",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@Delay",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void Delay(int)",
+    "location": {
+      "column": "6",
+      "line": "11",
+      "path": "C:\\UW_Workspace\\EMBSYS310\\Assignment03\\Problem1\\main.c"
+    },
+    "name": "Delay",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@405@F@Delay@count",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "count",
+    "location": {
+      "column": "7",
+      "line": "13",
+      "path": "C:\\UW_Workspace\\EMBSYS310\\Assignment03\\Problem1\\main.c"
+    },
+    "name": "count",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@main",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int main(void)",
+    "location": {
+      "column": "5",
+      "line": "21",
+      "path": "C:\\UW_Workspace\\EMBSYS310\\Assignment03\\Problem1\\main.c"
+    },
+    "name": "main",
+    "origin": "project_file",
+    "scope": null
+  }
+]
