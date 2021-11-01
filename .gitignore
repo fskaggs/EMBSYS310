@@ -116,3 +116,12 @@ Backup*
 
 # Local History for Visual Studio Code
 .history/
+
+# IAR project "Debug" directory
+Debug/
+
+# IAR project "Release" directory
+Release/
+
+# IAR project settings directory
+settings/
