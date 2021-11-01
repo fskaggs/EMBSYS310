@@ -1,14 +1,14 @@
-"C:\UW_Workspace\EMBSYS310\Assignment02\main.c"
+"C:\UW_Workspace\Classwork\EMBSYS310\Assignment02\main.c"
 -std=c11
 -ferror-limit=0
 -fbracket-depth=512
 -MD
 -MF
-C:\UW_Workspace\EMBSYS310\Assignment02\Debug\Obj\main.pbi.dep
+C:\UW_Workspace\Classwork\EMBSYS310\Assignment02\Debug\Obj\main.pbi.dep
 -o
 main.pbi
 -I
-C:\UW_Workspace\EMBSYS310\Assignment02
+C:\UW_Workspace\Classwork\EMBSYS310\Assignment02
 -I
 C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\arm\inc
 -I
