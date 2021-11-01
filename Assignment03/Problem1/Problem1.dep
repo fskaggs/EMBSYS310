@@ -10,6 +10,7 @@
             <file>$TOOLKIT_DIR$\lib\dl7M_tln.a</file>
             <file>$PROJ_DIR$\Debug\Obj\main.__cstat.et</file>
             <file>$TOOLKIT_DIR$\lib\m7M_tls.a</file>
+            <file>$PROJ_DIR$\..\Problem2\main.c</file>
             <file>$PROJ_DIR$\Debug\Obj\main.o</file>
             <file>$PROJ_DIR$\main.c</file>
             <file>$PROJ_DIR$\Debug\Exe\Problem1.out</file>
@@ -23,7 +24,7 @@
             <outputs>
                 <tool>
                     <name>ILINK</name>
-                    <file> 7 8</file>
+                    <file> 8 9</file>
                 </tool>
             </outputs>
         </file>
@@ -32,11 +33,11 @@
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 5</file>
+                    <file> 6</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 11</file>
+                    <file> 12</file>
                 </tool>
                 <tool>
                     <name>__cstat</name>
@@ -49,13 +50,13 @@
             <outputs>
                 <tool>
                     <name>ILINK</name>
-                    <file> 8</file>
+                    <file> 9</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ILINK</name>
-                    <file> 10 5 1 0 4 2</file>
+                    <file> 11 6 1 0 4 2</file>
                 </tool>
             </inputs>
         </file>
