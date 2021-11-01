@@ -23,9 +23,9 @@
 
 if ($debugfile -eq "")
 {
-& "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\common\bin\cspybat" -f "C:\UW_Workspace\EMBSYS310\Assignment03\Problem2\settings\Problem2.Debug.general.xcl" --backend -f "C:\UW_Workspace\EMBSYS310\Assignment03\Problem2\settings\Problem2.Debug.driver.xcl" 
+& "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\common\bin\cspybat" -f "C:\UW_Workspace\Classwork\EMBSYS310\Assignment03\Problem2\settings\Problem2.Debug.general.xcl" --backend -f "C:\UW_Workspace\Classwork\EMBSYS310\Assignment03\Problem2\settings\Problem2.Debug.driver.xcl" 
 }
 else
 {
-& "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\common\bin\cspybat" -f "C:\UW_Workspace\EMBSYS310\Assignment03\Problem2\settings\Problem2.Debug.general.xcl" --debug_file=$debugfile --backend -f "C:\UW_Workspace\EMBSYS310\Assignment03\Problem2\settings\Problem2.Debug.driver.xcl" 
+& "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\common\bin\cspybat" -f "C:\UW_Workspace\Classwork\EMBSYS310\Assignment03\Problem2\settings\Problem2.Debug.general.xcl" --debug_file=$debugfile --backend -f "C:\UW_Workspace\Classwork\EMBSYS310\Assignment03\Problem2\settings\Problem2.Debug.driver.xcl" 
 }

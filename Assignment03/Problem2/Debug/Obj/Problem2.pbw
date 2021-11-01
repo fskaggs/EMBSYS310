@@ -7,7 +7,7 @@
     "location": {
       "column": "9",
       "line": "1",
-      "path": "C:\\UW_Workspace\\EMBSYS310\\Assignment03\\Problem2\\main.c"
+      "path": "C:\\UW_Workspace\\Classwork\\EMBSYS310\\Assignment03\\Problem2\\main.c"
     },
     "name": "RCC_BASE",
     "origin": "project_file",
@@ -21,7 +21,7 @@
     "location": {
       "column": "9",
       "line": "2",
-      "path": "C:\\UW_Workspace\\EMBSYS310\\Assignment03\\Problem2\\main.c"
+      "path": "C:\\UW_Workspace\\Classwork\\EMBSYS310\\Assignment03\\Problem2\\main.c"
     },
     "name": "RCC_AHB2ENR",
     "origin": "project_file",
@@ -35,119 +35,105 @@
     "location": {
       "column": "9",
       "line": "3",
-      "path": "C:\\UW_Workspace\\EMBSYS310\\Assignment03\\Problem2\\main.c"
+      "path": "C:\\UW_Workspace\\Classwork\\EMBSYS310\\Assignment03\\Problem2\\main.c"
     },
     "name": "RCC_GPIOA_ENABLE",
     "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:main.c@135@macro@GPIOA_BASE",
+    "ID": "c:main.c@137@macro@GPIOA_BASE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "GPIOA_BASE",
     "location": {
       "column": "9",
-      "line": "4",
-      "path": "C:\\UW_Workspace\\EMBSYS310\\Assignment03\\Problem2\\main.c"
+      "line": "5",
+      "path": "C:\\UW_Workspace\\Classwork\\EMBSYS310\\Assignment03\\Problem2\\main.c"
     },
     "name": "GPIOA_BASE",
     "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:main.c@166@macro@GPIOA_PA5_OUTPUT",
+    "ID": "c:main.c@168@macro@GPIOA_PA5_OUTPUT",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "GPIOA_PA5_OUTPUT",
     "location": {
       "column": "9",
-      "line": "5",
-      "path": "C:\\UW_Workspace\\EMBSYS310\\Assignment03\\Problem2\\main.c"
+      "line": "6",
+      "path": "C:\\UW_Workspace\\Classwork\\EMBSYS310\\Assignment03\\Problem2\\main.c"
     },
     "name": "GPIOA_PA5_OUTPUT",
     "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:main.c@205@macro@GPIOA_MODER",
+    "ID": "c:main.c@207@macro@GPIOA_MODER",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "GPIOA_MODER",
     "location": {
       "column": "9",
-      "line": "6",
-      "path": "C:\\UW_Workspace\\EMBSYS310\\Assignment03\\Problem2\\main.c"
+      "line": "7",
+      "path": "C:\\UW_Workspace\\Classwork\\EMBSYS310\\Assignment03\\Problem2\\main.c"
     },
     "name": "GPIOA_MODER",
     "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:main.c@266@macro@GPIOA_ODR",
+    "ID": "c:main.c@268@macro@GPIOA_ODR",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "GPIOA_ODR",
     "location": {
       "column": "9",
-      "line": "7",
-      "path": "C:\\UW_Workspace\\EMBSYS310\\Assignment03\\Problem2\\main.c"
+      "line": "8",
+      "path": "C:\\UW_Workspace\\Classwork\\EMBSYS310\\Assignment03\\Problem2\\main.c"
     },
     "name": "GPIOA_ODR",
     "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:main.c@325@macro@ODR_ENABLE",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "ODR_ENABLE",
-    "location": {
-      "column": "9",
-      "line": "8",
-      "path": "C:\\UW_Workspace\\EMBSYS310\\Assignment03\\Problem2\\main.c"
-    },
-    "name": "ODR_ENABLE",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:main.c@357@macro@COUNT_DOWN",
+    "ID": "c:main.c@329@macro@COUNT_DOWN",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "COUNT_DOWN",
     "location": {
       "column": "9",
-      "line": "9",
-      "path": "C:\\UW_Workspace\\EMBSYS310\\Assignment03\\Problem2\\main.c"
+      "line": "10",
+      "path": "C:\\UW_Workspace\\Classwork\\EMBSYS310\\Assignment03\\Problem2\\main.c"
     },
     "name": "COUNT_DOWN",
     "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:main.c@384@macro@TOGGLE_BIT",
+    "ID": "c:main.c@356@macro@TOGGLE_BIT",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "TOGGLE_BIT",
     "location": {
       "column": "9",
-      "line": "10",
-      "path": "C:\\UW_Workspace\\EMBSYS310\\Assignment03\\Problem2\\main.c"
+      "line": "11",
+      "path": "C:\\UW_Workspace\\Classwork\\EMBSYS310\\Assignment03\\Problem2\\main.c"
     },
     "name": "TOGGLE_BIT",
     "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:main.c@430@macro@ODR_LED1",
+    "ID": "c:main.c@402@macro@ODR_LED1",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "ODR_LED1",
     "location": {
       "column": "9",
-      "line": "11",
-      "path": "C:\\UW_Workspace\\EMBSYS310\\Assignment03\\Problem2\\main.c"
+      "line": "12",
+      "path": "C:\\UW_Workspace\\Classwork\\EMBSYS310\\Assignment03\\Problem2\\main.c"
     },
     "name": "ODR_LED1",
     "origin": "project_file",
@@ -160,22 +146,22 @@
     "display": "void Delay(int)",
     "location": {
       "column": "6",
-      "line": "13",
-      "path": "C:\\UW_Workspace\\EMBSYS310\\Assignment03\\Problem2\\main.c"
+      "line": "14",
+      "path": "C:\\UW_Workspace\\Classwork\\EMBSYS310\\Assignment03\\Problem2\\main.c"
     },
     "name": "Delay",
     "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:main.c@471@F@Delay@count",
+    "ID": "c:main.c@443@F@Delay@count",
     "What": "Variable",
     "defdec": "Def",
     "display": "count",
     "location": {
       "column": "7",
-      "line": "15",
-      "path": "C:\\UW_Workspace\\EMBSYS310\\Assignment03\\Problem2\\main.c"
+      "line": "16",
+      "path": "C:\\UW_Workspace\\Classwork\\EMBSYS310\\Assignment03\\Problem2\\main.c"
     },
     "name": "count",
     "origin": "project_file",
@@ -188,8 +174,8 @@
     "display": "int main(void)",
     "location": {
       "column": "5",
-      "line": "23",
-      "path": "C:\\UW_Workspace\\EMBSYS310\\Assignment03\\Problem2\\main.c"
+      "line": "24",
+      "path": "C:\\UW_Workspace\\Classwork\\EMBSYS310\\Assignment03\\Problem2\\main.c"
     },
     "name": "main",
     "origin": "project_file",

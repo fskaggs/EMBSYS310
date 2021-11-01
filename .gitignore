@@ -59,7 +59,7 @@ dkms.conf
 *.ewd
 
 # IAR Workspace files
-*.eww
+#*.eww
 
 # IAR Settings
 **/settings/*.crun
@@ -70,10 +70,13 @@ dkms.conf
 **/settings/*.dni
 **/settings/*.wsdt
 **/settings/*.wspos
+**/settings/*.*
 **/settings/
 
 # IAR Debug Exe
 **/Debug/Exe/
+**/Debug/*.*
+**/Debug/
 
 # IAR Debug List
 **/Debug/List

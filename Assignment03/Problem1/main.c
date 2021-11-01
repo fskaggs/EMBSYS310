@@ -32,8 +32,8 @@ int main()
     GPIOA_ODR |= ODR_ENABLE;
     Delay(COUNT_DOWN);
     GPIOA_ODR &= ~ODR_ENABLE;
-    Delay(COUNT_DOWN * 10);
+    Delay(COUNT_DOWN);
   }
-  while(1);
+
   return 0;
 }

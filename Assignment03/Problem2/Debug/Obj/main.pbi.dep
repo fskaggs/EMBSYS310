@@ -1,1 +1,2 @@
-main.pbi: C:\UW_Workspace\EMBSYS310\Assignment03\Problem2\main.c
+main.pbi: \
+  C:\UW_Workspace\Classwork\EMBSYS310\Assignment03\Problem2\main.c
