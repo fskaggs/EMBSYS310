@@ -83,7 +83,7 @@ dkms.conf
 **/Obj/*.pbd.*
 **/Obj/*.pbi
 **/Obj/*.pbi.*
-**/Obj/
+**/Obj/*.*
 
 # Log files
 **.log
