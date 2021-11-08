@@ -14,12 +14,16 @@
 #define COUNT_DOWN 300000
 #define ODR_LED1 5
 
-#define DIT 1
-#define DAH 3
+#define DIT 1  // Signal for one time unit
+#define DAH 3  // Signal for three time units
 #define EOS 1  // End of Signal
 #define EOL 3  // End of Letter
 #define EOW 7  // End of Word
 
+// Lookup table for what signals are required to transmit a letter in Morse code.
+// Structure is as follows:
+// Byte 0 - Number of signals in array
+// Byte 1 - n - Specific signals required for a given letter
 char Morse_Code[26][5] = {
   { 2, DIT, DAH },            // A
   { 4, DAH, DIT, DIT, DIT },  // B
@@ -49,6 +53,7 @@ char Morse_Code[26][5] = {
   { 4, DAH, DAH, DIT, DIT },  // Z
  };
 
+// Simple delay function used to control timing for LED to be on or off
 void Delay(int Multiplier)
 {
   int count = 0;
@@ -60,6 +65,7 @@ void Delay(int Multiplier)
   }
 }
 
+// Function transmits a single character in Morse code by flashing LED1
 void SendLetter(char Letter)
 {
   int index;
@@ -84,6 +90,7 @@ void SendLetter(char Letter)
   }
 }
 
+// Function flashes LED1 to transmit the given word (string) in Morse code
 void SendWord(char Word[])
 {
   char *letter;
@@ -112,6 +119,7 @@ int main()
   // Toggle the LED1
   while(1)
   {
+    // Transmit my name in flashing Morse code on LED1
     SendWord("FRED");
   }
 

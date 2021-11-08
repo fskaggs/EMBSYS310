@@ -5,26 +5,19 @@
     <configuration>
         <name>Debug</name>
         <outputs>
-            <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
-            <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
-            <file>$TOOLKIT_DIR$\lib\dl7M_tln.a</file>
-            <file>$PROJ_DIR$\Debug\Obj\main.__cstat.et</file>
-            <file>$TOOLKIT_DIR$\lib\m7M_tls.a</file>
-            <file>$PROJ_DIR$\..\Problem2\main.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.xcl</file>
             <file>$PROJ_DIR$\Debug\Obj\main.o</file>
-            <file>$PROJ_DIR$\main.c</file>
             <file>$PROJ_DIR$\Debug\Exe\Problem1.out</file>
             <file>$PROJ_DIR$\Debug\List\Problem1.map</file>
-            <file>$PROJ_DIR$\Debug\Obj\Problem1.pbd</file>
-            <file>$TOOLKIT_DIR$\config\linker\ST\stm32l475xG.icf</file>
-            <file>$PROJ_DIR$\Debug\Obj\main.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.__cstat.et</file>
+            <file>$PROJ_DIR$\main.c</file>
         </outputs>
         <file>
             <name>[ROOT_NODE]</name>
             <outputs>
                 <tool>
                     <name>ILINK</name>
-                    <file> 8 9</file>
+                    <file> 2</file>
                 </tool>
             </outputs>
         </file>
@@ -32,33 +25,14 @@
             <name>$PROJ_DIR$\main.c</name>
             <outputs>
                 <tool>
-                    <name>ICCARM</name>
-                    <file> 6</file>
+                    <name>__cstat</name>
+                    <file> 4</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 12</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 3</file>
+                    <file> 0</file>
                 </tool>
             </outputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\Debug\Exe\Problem1.out</name>
-            <outputs>
-                <tool>
-                    <name>ILINK</name>
-                    <file> 9</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ILINK</name>
-                    <file> 11 6 1 0 4 2</file>
-                </tool>
-            </inputs>
         </file>
     </configuration>
     <configuration>
