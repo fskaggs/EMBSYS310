@@ -25,7 +25,7 @@ void Delay(int Time)
 int main()
 {
   // Enable GPIOA Clocking
-  //RCC_AHB2ENR |= RCC_GPIOA_ENABLE;
+  RCC_AHB2ENR |= RCC_GPIOA_ENABLE;
 
   // Enable GPIOA Clocking using BIT Banding
   unsigned int* ClkEnable_BitAddr = BITBAND_ADDR(BITBAND_PBASE, AHB2ENR_OFFSET, GPIOA_ENABLE_BIT);
