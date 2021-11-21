@@ -10,9 +10,9 @@ of the data values onto the stack.
 R0 contains 0x200003EC, which is the address of the pointer to the int variable A on the stack.
 R1 contains 0x200003E8, which is the address of the pointer to the int variable B on the stack.
 
-![Stack and Register Content Before Swap](.\CallSetup.png)
+![Stack and Register Content Before Swap](https://github.com/fskaggs/EMBSYS310/blob/main/Assignment05/Problem1/CallSetup.png)
 
 c. Share a screen shot of the local variables inside of “main” after the function 
 swap_pointer() returns showing the values of the pointers and what they are pointing to. 
 
-![Swap Completed](.\SwapCompleted.png)
+![Swap Completed](https://github.com/fskaggs/EMBSYS310/blob/main/Assignment05/Problem1/SwapCompleted.png)
