@@ -15,4 +15,4 @@ R1 contains 0x200003E8, which is the address of the pointer to the int variable 
 c. Share a screen shot of the local variables inside of “main” after the function 
 swap_pointer() returns showing the values of the pointers and what they are pointing to. 
 
-![Swap Completed](https://github.com/fskaggs/EMBSYS310/blob/main/Assignment05/Problem1/SwapCompleted.png)
+![Swap Completed](https://github.com/fskaggs/EMBSYS310/blob/main/Assignment05/Problem1/SwapCompleted.PNG)
