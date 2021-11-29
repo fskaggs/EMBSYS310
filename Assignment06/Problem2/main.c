@@ -56,8 +56,6 @@ void main(void)
     while(1)
     {
         control_user_led1(LED_ON, DELAY_DURATION);
-        //for(int i = 0; i < DELAY_DURATION; i++) {}
         control_user_led1(LED_OFF, DELAY_DURATION);
-        //for(int i = 0; i < DELAY_DURATION; i++) {}
     }
 }
