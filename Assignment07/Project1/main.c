@@ -17,16 +17,6 @@ void SysTick_Handler(void)
     GPIOA->ODR ^= GPIO_ODR_OD5;
 }
 
-void Delay(int Time)
-{
-  int count = 0;
-  
-  while(count < Time)
-  {
-    count++;
-  }
-}
-
 int main()
 {
   // Enable GPIOA Clocking
@@ -40,14 +30,7 @@ int main()
   
   
   // Toggle the LED1
-  while(1)
-  {
-  //  GPIOA->ODR |= GPIO_ODR_OD5;
-  //  Delay(COUNT_DOWN);
-    
-  //  GPIOA->ODR &= ~GPIO_ODR_OD5;
-  //  Delay(COUNT_DOWN);
-  }
+  while(1)  { ; }
   
   
   return 0;
