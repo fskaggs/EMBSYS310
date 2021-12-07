@@ -14,7 +14,7 @@ void SysTick_Initialize(void)
 
 void SysTick_Handler(void)
 {
-    GPIOB->ODR ^= GPIO_ODR_OD14;
+    GPIOA->ODR ^= GPIO_ODR_OD5;
 }
 
 void Delay(int Time)
